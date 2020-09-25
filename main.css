@@ -1,0 +1,70 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat (4, 200px);
+  grid-template-rows: 200px 400px 350px 450px 200px;
+}
+
+.header {
+  background: #790909;
+  color: white;
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 1/3;
+}
+
+.early {
+  background: #E5CB90;
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+.toon {
+  background: #DAA520;
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.post {
+  background: #808080;
+  color: white;
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+
+.footer {
+  background: #070024;
+  color: white;
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+
+a {
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+.Shearer-Blackburn {
+  width: 25%;
+  float: left;
+  margin: .75%
+}
+
+.Shearer-Celebrates {
+  width: 30%;
+  float: right;
+  margin: .50%;
+}
+
+.Shearer-shirt {
+  width: 20%;
+  float: left;
+  margin: .70%;
+}
